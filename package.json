@@ -19,6 +19,9 @@
     "url": "https://github.com/kidneytoo/musearch/issues"
   },
   "homepage": "https://github.com/kidneytoo/musearch#readme",
+  "engines": {
+    "node": "8.11.4"
+  },
   "dependencies": {
     "a.": "0.0.1",
     "concurrently": "^4.1.0",
