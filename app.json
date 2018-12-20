@@ -1,0 +1,25 @@
+{
+  "name": "musearch",
+  "scripts": {
+  },
+  "env": {
+    "FACEBOOK_CLIENT_ID": "319863085521585",
+    "FACEBOOK_CLIENT_SECRET": "be2338bbe229f598cd7a24afb9f1af78",
+    "MONGO_URI": "mongodb://admin:admin123456@ds131954.mlab.com:31954/musearch",
+    "COOKIE_KEY": "o1ho21526y12SDGF"
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "stack": "heroku-18",
+  "buildpacks": [
+    {
+      "url": "heroku/nodejs"
+    }
+  ]
+}
